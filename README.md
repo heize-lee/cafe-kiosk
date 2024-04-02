@@ -1,34 +1,29 @@
-# mini_project
+# CAFE-KIOSK App : mini project
 
-## cafe kiosk
+[![Python Version](https://img.shields.io/badge/Python-3.10.13-blue)](https://www.python.org/downloads/release/python-31013/) [![Django Version](https://img.shields.io/badge/Django-3.2.9-green)](https://www.djangoproject.com/)
 
-주문 및 결제
+## 기능
 
-1) 음료리스트
+### 1. kiosk
 
-- 선택
-- 취소
+- 메뉴 조회 및 주문: 사용자는 카페의 메뉴를 조회하고 주문할 수 있습니다.
+- 주문 처리: 주문은 포스기에서 실시간으로 처리됩니다.
+- 결제: 주문은 현금 또는 신용카드로 결제할 수 있습니다.
+- 주문 상태 업데이트: 사용자는 주문 상태를 실시간으로 확인할 수 있습니다.
 
-2) 사이즈+옵션 선택
+### 2. 어드민
 
-- 톨&그란데&벤티
-- 얼음많이.. 이건 굳이…..
-- 완료 버튼
+- 메뉴 CURD
 
-3) 주문 확인 화면
+## 개발 환경 설정
+```python
+pip install ...
+```
 
-- 주문 리스트 확인 (메뉴 취소 가능)
-- 추가 메뉴 선택
-- 서비스 옵션 (테이크 아웃, 매장내)
-- 결제하기 버튼
+## 업데이트 내역
 
-4) 결제 방법 선택
+<!-- * 0.0.1
 
-- 신용카드
-- 카카오페이
-
-5) 결제
-   결제 완료 후 주문정보 전달
-6) 주방
-7) 고객
-   마무리 - 완료되었습니다.
+  * feat: table create
+  - admin : user list, 
+  - menu : list, price -->
