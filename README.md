@@ -11,11 +11,12 @@
 - 결제: 주문은 현금 또는 신용카드로 결제할 수 있습니다.
 - 주문 상태 업데이트: 사용자는 주문 상태를 실시간으로 확인할 수 있습니다.
 
-### 2. 어드민
+### 2. admin
 
-- 메뉴 CURD
+- superuser create
+- menu CURD
 
-## 퀘스천
+## Question Model
 
 
 | SR No | Category  | Drinks                                                        |
@@ -24,7 +25,7 @@
 | 2     | 콜드 음료 | 아이스 아메리카노, 아이스 라떼, 아이스 티, 프라푸치노, 스무디 |
 | 3     | 티        | 그린 티, 얼 그레이, 차이 티 라떼, 히비스커스 티               |
 
-## 초이스(Choices) 모델
+## Choice Model
 
 1. 핫 음료
 
@@ -54,14 +55,13 @@
 
 ## 개발 환경 설정
 
-```python
-pip install ...
+```shell
+pip install django
 ```
 
 ## 업데이트 내역
 
-<!-- * 0.0.1
-
+* 0.0.1
   * feat: table create
-  - admin : user list, 
-  - menu : list, price -->
+    * admin : user list
+    * menu : list, price
