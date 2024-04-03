@@ -3,7 +3,8 @@
 [![Python Version](https://img.shields.io/badge/Python-3.10.13-blue)](https://www.python.org/downloads/release/python-31013/) [![Django Version](https://img.shields.io/badge/Django-3.2.9-green)](https://www.djangoproject.com/)
 
 ## 요구사항
-![이미지 설명](https://lh3.googleusercontent.com/drive-viewer/AKGpihZwjUDBc-NIBy5T4KxKo_BPaTzc2RIqZ8Hfdz7Bfq4WVUOXcs5bHvh8qczdpvC8-zUAiC82WA9OhDP-__VivNBSq84NXQ=w1694-h1508)
+
+![이미지 설명](https://lh3.googleusercontent.com/drive-viewer/AKGpihbdQFihqiLpjU4AMGtfEwoxP3PzWwMymsCKc0cJobZWpSd9m-k3nIPwOGFebD68GLPAoouL9odZ0E0047mhNq-lfhbVWA=w772-h876)
 
 ## 기능
 
@@ -65,6 +66,7 @@ pip install django
 ## 업데이트 내역
 
 * 0.0.1
+  * docs
   * feat: table create
     * admin : user list
     * menu : list, price
