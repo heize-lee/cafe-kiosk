@@ -71,3 +71,10 @@ pip install psycopg2-binary
   * feat: table create
     * admin : user list
     * menu : list, price
+
+* 0.0.2
+  * feat: table create
+    * admin
+    * menu
+    * order
+    * payment
