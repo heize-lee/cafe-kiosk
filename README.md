@@ -4,7 +4,7 @@
 
 ## 요구사항
 
-![이미지 설명](https://lh3.googleusercontent.com/drive-viewer/AKGpihbdQFihqiLpjU4AMGtfEwoxP3PzWwMymsCKc0cJobZWpSd9m-k3nIPwOGFebD68GLPAoouL9odZ0E0047mhNq-lfhbVWA=w772-h876)
+![이미지 설명](https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbVfuuX8pKBz0O0FbMXcAfw5TgkvZ4lSM-9zZZVimJ-Y-5Y8EJ7wyP7K_N1JfHqOt1NgI4Hs_Et0ZR6uwDYxVn-adb44Vzr9a0=w1327-h876)
 
 ## 기능
 
