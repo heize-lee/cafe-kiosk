@@ -61,6 +61,7 @@
 
 ```shell
 pip install django
+pip install psycopg2-binary
 ```
 
 ## 업데이트 내역
