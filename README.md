@@ -4,7 +4,7 @@
 
 ## 요구사항
 
-![이미지 설명](https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihbVfuuX8pKBz0O0FbMXcAfw5TgkvZ4lSM-9zZZVimJ-Y-5Y8EJ7wyP7K_N1JfHqOt1NgI4Hs_Et0ZR6uwDYxVn-adb44Vzr9a0=w1327-h876)
+![이미지 설명](https://lh3.googleusercontent.com/drive-viewer/AKGpihbMvyW5xc8ZQjQQRHzoxa8bEsWA66fZ3i9pb3kYWILD4mYG71ZTbXy5LDglzQGMo-sBtHd5yJFhetrbh4xNaIKtNprs63WdZg=w848-h876)
 
 ## 기능
 
@@ -67,12 +67,13 @@ pip install psycopg2-binary
 ## 업데이트 내역
 
 * 0.0.1
+
   * docs
   * feat: table create
     * admin : user list
     * menu : list, price
-
 * 0.0.2
+
   * feat: table create
     * admin
     * menu
