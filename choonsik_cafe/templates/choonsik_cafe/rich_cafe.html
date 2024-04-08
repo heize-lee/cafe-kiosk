@@ -1,0 +1,10 @@
+<h1> choonsik cafe!!!!! </h1>
+
+{%for lion in lions %}
+    <h3>카테고리 : {{<lion.name}}</h3>
+    {%for in lion.item_set.all %}
+        음료이름 : {{item.name}}
+        <br>
+        가격: {{item.price}}
+    {%endfor%}
+{%endfor%}
