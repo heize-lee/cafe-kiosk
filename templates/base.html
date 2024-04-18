@@ -1,0 +1,47 @@
+<!-- templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}홈페이지{% endblock %}</title>
+    <!-- 부트스트랩 CDN 링크 추가 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 여기에 추가적인 CSS 링크나 스타일 시트를 추가할 수 있습니다. -->
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">홈</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">메뉴</a>
+                    </li>
+                    <!-- 다른 메뉴 항목을 추가할 수 있습니다. -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 본문 내용 -->
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- 푸터 -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <div class="container">
+            <span>&copy; 2024 카페 키오스크</span>
+        </div>
+    </footer>
+
+    <!-- 부트스트랩 JavaScript 및 기타 스크립트를 추가할 수 있습니다. -->
+</body>
+</html>

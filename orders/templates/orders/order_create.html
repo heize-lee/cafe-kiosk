@@ -1,0 +1,24 @@
+<!-- orders/templates/orders/order_create.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문 생성</title>
+</head>
+<body>
+    <h1>주문 생성</h1>
+    <form method="POST" action="{% url 'orders:order_create' %}">
+        {% csrf_token %}
+        <label for="item">주문할 항목:</label>
+        <input type="text" id="item" name="item">
+        <br>
+        <label for="quantity">수량:</label>
+        <input type="number" id="quantity" name="quantity" value="1" min="1">
+        <br>
+        <button type="submit">주문하기</button>
+    </form>
+</body>
+</html>
