@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'choonsik_cafe',
+    'kiosk',
 ]
 
 MIDDLEWARE = [
@@ -85,7 +85,7 @@ db_key = os.getenv("DB_KEY")
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cafe_jhlee', # db name
+        'NAME': 'choonsik_cafe', # db name
         'USER': 'postgres',
         'PASSWORD': db_key,
         'HOST': 'hanslab.org',  # 또는 PostgreSQL 서버의 IP 주소
@@ -135,6 +135,5 @@ STATICFILES_DIRS = [BASE_DIR/'static']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-import os
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # BASE_DIR/'media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

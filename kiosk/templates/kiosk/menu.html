@@ -1,0 +1,45 @@
+<!-- templates/kiosk/menu.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페 키오스크 - 메뉴</title>
+    <!-- 부트스트랩 CDN 링크 추가 -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- 여기에 추가적인 CSS 링크나 스타일 시트를 추가할 수 있습니다. -->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">카페 키오스크</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <h2 class="my-4">메뉴</h2>
+        <div class="row">
+            {% for category in categories %}
+            <div class="col-md-4">
+                <h3>{{ category.name }}</h3>
+                <div class="list-group">
+                    {% for item in category.menuitem_set.all %}
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <img src="{{ item.image.url }}" alt="{{ item.name }}" class="img-fluid mb-2">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{ item.name }}</h5>
+                            <small>{{ item.price }}원</small>
+                        </div>
+                        <p class="mb-1">{{ item.description }}</p>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+    <!-- 부트스트랩 JavaScript 및 기타 스크립트를 추가할 수 있습니다. -->
+</body>
+</html>
