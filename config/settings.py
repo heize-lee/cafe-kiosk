@@ -78,13 +78,6 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 
-# 공용 DB
-# env
-from dotenv import load_dotenv
-import os
-load_dotenv()
-db_key = os.getenv("DB_KEY")
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
